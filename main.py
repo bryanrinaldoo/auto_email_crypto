@@ -7,7 +7,7 @@ def get_price(symbol):
     url = f"https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol={symbol}&convert=USD"
     headers = {
         "Accepts": "application/json",
-        "X-CMC_Pro_API_Key": "f363f7da-d79d-46a2-9f21-e26659d02906"
+        "X-CMC_Pro_API_Key": "YOUR_API_KEY"
     }
     response = requests.get(url, headers=headers).json()
     return float(response["data"][symbol]["quote"]["USD"]["price"])
@@ -51,11 +51,11 @@ def send_email(body):
     smtp_server.quit()
 
 if __name__ == "__main__":
-    symbol1 = "AXS"
+    symbol1 = "AXS" #symbol axs/ron
     symbol2 = "RON"
     change_over = 5 #notify when change is over 5%
     oldPrice = get_initPrice(symbol1, symbol2)
     while True:
         compare_prices(symbol1, symbol2)
-        time.sleep(3600)
+        time.sleep(3600) #interval in seconds
 
