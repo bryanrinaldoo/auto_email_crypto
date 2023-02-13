@@ -11,11 +11,15 @@ This project is inspired by this [tweet](https://twitter.com/Jin__ASAP/status/16
 - install email (type in Command Prompt 'pip install email')
 
 ## Setup 
-1. input your sender, recipient, and sender password. (You have to activate your sender email two factor authentication and generate app password. [Guide](https://youtu.be/g_j6ILT-X0k?t=58) 
+1. Input your API key by register to [coinmarketcap](https://coinmarketcap.com/api/). Watch the [guide](https://youtu.be/7Gdok1BPECw)
+
+![image](https://user-images.githubusercontent.com/68496465/218427081-34f6d4e8-9051-4474-8d9e-f8b566fb1eea.png)
+
+2. input your sender, recipient, and sender password. (You have to activate your sender email two factor authentication and generate app password. [Guide](https://youtu.be/g_j6ILT-X0k?t=58) 
 
 ![image](https://user-images.githubusercontent.com/68496465/218420765-4d001d83-6fdc-435b-9b99-92ec9a8fd759.png)
 
-2. Change the symbol, change_over, and interval.
+3. Change the symbol, change_over, and interval.
 
 ![image](https://user-images.githubusercontent.com/68496465/218421875-567aa3f2-9049-43c9-b6ae-8e7bace679c3.png)
 
